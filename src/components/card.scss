@@ -5,17 +5,11 @@
   background-position: center;
   color: white;
   position: relative;
-  &.active {
-    border: 10px solid red;
-  }
-}
 
-.card-user {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 40px;
-  border-radius: 50%;
+  &.active {
+    box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.6) inset;
+    border-radius: 16px;
+  }
 }
 
 .card-category {
